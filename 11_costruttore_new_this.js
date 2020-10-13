@@ -8,7 +8,7 @@
 //        return 'Cane'
 //  }
 
-// //  console.log(typeof Animal);    //*function
+//  console.log(typeof Animal);    //*function
 
 //  //Qunado è che una funzione si trasforma in una specia di classe
 //    //Quando io chiamo questa funzione con il costrutto 'new'
@@ -28,7 +28,7 @@
 console.log();
 console.log();
 
-//Come faccio nel costruttore ad assegnare parametri predefiniti per fli oggetti che creerò
+//Come faccio nel costruttore ad assegnare parametri predefiniti per gli oggetti che creerò
 
 function Animal2() {
     //this significa che questi due parametri non appartengono alla funzione, Ma all'oggetto che verrà creato
@@ -45,7 +45,8 @@ var cagnolino = new Animal2();
 
 //Per differenziare le funzioni normali da quelle costruttrici di oggetti si mette la lettera Maius
 
-var cane = Animal2();   //quando la funzione viene chiamata, this NON crea un nuovo oggetto perchè non cè new
+var cane = Animal2();   //quando la funzione viene chiamata, this NON crea un nuovo oggetto 
+                          //perchè non cè new
 
 //non avendo istanziato un oggetto qui, this fa riferimento all'oggetto globale 
   //se io non istanzio un nuovo oggetto
